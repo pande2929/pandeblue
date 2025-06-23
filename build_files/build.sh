@@ -12,6 +12,7 @@ set -ouex pipefail
 # this installs a package from fedora repos
 dnf5 install -y mangohud
 dnf5 install -y btop
+dnf5 install -y nvim
 dnf5 remove -y firefox firefox-langpacks
 
 # Use a COPR Example:
