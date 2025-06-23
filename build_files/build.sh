@@ -14,6 +14,7 @@ dnf5 install -y mangohud
 dnf5 install -y btop
 dnf5 install -y nvim
 dnf5 remove -y firefox firefox-langpacks
+dnf5 remove -y nvtop htop
 
 # Use a COPR Example:
 #
