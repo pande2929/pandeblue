@@ -15,6 +15,7 @@ dnf5 install -y btop
 dnf5 install -y nvim
 dnf5 remove -y firefox firefox-langpacks
 dnf5 remove -y nvtop htop
+dnf5 install @xfce-desktop-environment
 
 # Use a COPR Example:
 #
