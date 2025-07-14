@@ -13,7 +13,6 @@ set -ouex pipefail
 dnf5 install -y mangohud
 dnf5 install -y btop
 dnf5 install -y nvim
-dnf5 install -y @lxqt-desktop
 dnf5 remove -y firefox firefox-langpacks
 dnf5 remove -y nvtop htop
 
