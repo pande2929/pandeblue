@@ -26,4 +26,4 @@ dnf5 install -y @mate-desktop
 
 #### Example for enabling a System Unit File
 
-systemctl enable podman.socket
+#systemctl enable podman.socket
