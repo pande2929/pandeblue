@@ -27,7 +27,7 @@ dnf5 remove -y nvtop htop
 # Disable COPRs so they don't end up enabled on the final image:
 # dnf5 -y copr disable ublue-os/staging
 
-ls -l /var/run
+ls -l /var
 
 systemctl disable lightdm
 systemctl enable greetd
