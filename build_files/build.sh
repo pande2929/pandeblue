@@ -16,11 +16,12 @@ ln -sf ../run /var/run
 dnf5 install -y mangohud
 dnf5 install -y btop
 dnf5 install -y nvim
-dnf5 install -y tuigreet
+dnf5 install -y @cinnamon-desktop
+dnf5 install -y gdm
+#dnf5 install -y tuigreet
 #dnf5 install -y @mate-desktop
 #dnf5 install -y @xfce-desktop-environment
-dnf5 install -y @cinnamon-desktop
-dnf5 install -y labwc wlroots
+#dnf5 install -y labwc wlroots
 dnf5 remove -y firefox firefox-langpacks
 dnf5 remove -y nvtop htop
 
@@ -31,5 +32,7 @@ dnf5 remove -y nvtop htop
 # Disable COPRs so they don't end up enabled on the final image:
 # dnf5 -y copr disable ublue-os/staging
 
-systemctl disable lightdm
-systemctl enable greetd
+systemctl enable gdm
+
+#systemctl disable lightdm
+#systemctl enable greetd
