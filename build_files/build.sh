@@ -29,4 +29,5 @@ dnf5 remove -y nvtop htop
 
 ls -l /var/run
 
+systemctl disable lightdm
 systemctl enable greetd
