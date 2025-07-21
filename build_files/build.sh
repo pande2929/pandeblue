@@ -22,6 +22,7 @@ dnf5 install -y gdm
 dnf5 install -y @mate-desktop
 #dnf5 install -y @xfce-desktop-environment
 #dnf5 install -y labwc wlroots
+dnf5 install -y steam
 dnf5 remove -y firefox firefox-langpacks
 dnf5 remove -y nvtop htop
 
