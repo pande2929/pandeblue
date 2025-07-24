@@ -16,6 +16,7 @@ ln -sf ../run /var/run
 dnf5 install -y mangohud
 dnf5 install -y btop
 dnf5 install -y nvim
+dnf5 install -y hyfetch
 dnf5 install -y tuigreet
 dnf5 install -y sway
 dnf5 install -y alacritty swaylock swayidle swaybg thunar waybar rofi-wayland pavucontrol
