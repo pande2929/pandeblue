@@ -17,9 +17,10 @@ dnf5 install -y mangohud
 dnf5 install -y btop
 dnf5 install -y nvim
 dnf5 install -y tuigreet
-dnf5 install -y @mate-desktop
-dnf5 install -y @lxqt-desktop xcb-util-cursor
-dnf5 install -y labwc wlroots
+dnf5 install -y sway
+#dnf5 install -y @mate-desktop
+#dnf5 install -y @lxqt-desktop xcb-util-cursor
+#dnf5 install -y labwc wlroots
 #dnf5 install -y @kde-desktop-environment
 dnf5 remove -y firefox firefox-langpacks
 dnf5 remove -y nvtop htop
@@ -31,6 +32,6 @@ dnf5 remove -y nvtop htop
 # Disable COPRs so they don't end up enabled on the final image:
 # dnf5 -y copr disable ublue-os/staging
 
-systemctl disable lightdm
+#systemctl disable lightdm
 #systemctl enable gdm
 systemctl enable greetd
