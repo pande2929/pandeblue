@@ -19,9 +19,10 @@ dnf5 install -y nvim
 #dnf5 install -y @cinnamon-desktop
 #dnf5 install -y gdm
 #dnf5 install -y tuigreet
-#dnf5 install -y @mate-desktop
+dnf5 install -y @mate-desktop
+dnf5 install -y @lxqt
 #dnf5 install -y @xfce-desktop-environment
-#dnf5 install -y labwc wlroots
+dnf5 install -y labwc wlroots
 dnf5 install -y @kde-desktop-environment
 dnf5 remove -y firefox firefox-langpacks
 dnf5 remove -y nvtop htop
