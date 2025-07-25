@@ -20,7 +20,8 @@ dnf5 install -y hyfetch
 dnf5 install -y tuigreet
 dnf5 install -y sway
 dnf5 install -y alacritty swaylock swayidle swaybg thunar waybar rofi-wayland pavucontrol
-dnf5 install -y @kde-desktop-environment
+#dnf5 install -y @kde-desktop-environment
+dnf5 install -y @gnome-desktop
 dnf5 remove -y firefox firefox-langpacks
 dnf5 remove -y nvtop htop
 
