@@ -25,6 +25,9 @@ dnf5 install -y @gnome-desktop
 dnf5 remove -y firefox firefox-langpacks
 dnf5 remove -y nvtop htop
 
+# Allow sway to work with Nvidia proprietary drivers
+sed -i 's/Exec=sway/Exec=sway --unsupported-gpu/' /usr/share/wayland-sessions/sway.desktop
+
 # Use a COPR Example:
 #
 # dnf5 -y copr enable ublue-os/staging
