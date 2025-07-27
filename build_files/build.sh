@@ -21,7 +21,7 @@ dnf5 install -y tuigreet
 dnf5 install -y sway
 dnf5 install -y alacritty swaylock swayidle swaybg thunar waybar rofi-wayland pavucontrol
 #dnf5 install -y @kde-desktop-environment
-dnf5 install -y @gnome-desktop
+#dnf5 install -y @gnome-desktop
 dnf5 remove -y firefox firefox-langpacks
 dnf5 remove -y nvtop htop
 
@@ -36,6 +36,6 @@ sed -i 's/Exec=sway/Exec=sway --unsupported-gpu/' /usr/share/wayland-sessions/sw
 # dnf5 -y copr disable ublue-os/staging
 
 #systemctl disable lightdm
-systemctl enable gdm
-#systemctl enable greetd
+#systemctl enable gdm
+systemctl enable greetd
 #systemctl enable sddm
