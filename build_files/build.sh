@@ -36,6 +36,6 @@ dnf5 remove -y nvtop htop
 # dnf5 -y copr disable ublue-os/staging
 
 #systemctl disable lightdm
-#systemctl enable gdm
+systemctl enable gdm
 #systemctl enable greetd
-systemctl enable sddm
+#systemctl enable sddm
