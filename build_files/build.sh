@@ -19,8 +19,8 @@ dnf5 install -y nvim
 dnf5 install -y hyfetch
 dnf5 install -y tuigreet
 #dnf5 install -y sway alacritty swaylock swayidle swaybg thunar waybar rofi-wayland pavucontrol fontawesome-fonts-all
-#dnf5 install -y @kde-desktop-environment
-dnf5 install -y @gnome-desktop
+dnf5 install -y @kde-desktop-environment
+#dnf5 install -y @gnome-desktop
 dnf5 remove -y firefox firefox-langpacks
 dnf5 remove -y nvtop htop
 #dnf5 remove -y foot
@@ -28,14 +28,8 @@ dnf5 remove -y nvtop htop
 # Allow sway to work with Nvidia proprietary drivers
 #sed -i 's/Exec=sway/Exec=sway --unsupported-gpu/' /usr/share/wayland-sessions/sway.desktop
 
-# Use a COPR Example:
-#
-# dnf5 -y copr enable ublue-os/staging
-# dnf5 -y install package
-# Disable COPRs so they don't end up enabled on the final image:
-# dnf5 -y copr disable ublue-os/staging
-
+# Display Manager selection
 #systemctl disable lightdm
-systemctl enable gdm
+#systemctl enable gdm
 #systemctl enable greetd
-#systemctl enable sddm
+systemctl enable sddm
