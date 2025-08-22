@@ -3,8 +3,8 @@ FROM scratch AS ctx
 COPY build_files /
 
 # Base Image
-#FROM ghcr.io/ublue-os/silverblue-nvidia:latest
-FROM ghcr.io/ublue-os/base-nvidia:latest
+FROM ghcr.io/ublue-os/kinoite-nvidia:latest
+#FROM ghcr.io/ublue-os/base-nvidia:latest
 #FROM quay.io/fedora/fedora-bootc:latest
 
 ## Other possible base images include:
