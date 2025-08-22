@@ -17,9 +17,9 @@ dnf5 install -y mangohud
 dnf5 install -y btop
 dnf5 install -y nvim
 dnf5 install -y hyfetch
-dnf5 install -y tuigreet
+#dnf5 install -y tuigreet
 #dnf5 install -y sway alacritty swaylock swayidle swaybg thunar waybar rofi-wayland pavucontrol fontawesome-fonts-all
-dnf5 install -y @kde-desktop-environment
+#dnf5 install -y @kde-desktop-environment
 #dnf5 install -y @gnome-desktop
 dnf5 remove -y firefox firefox-langpacks
 dnf5 remove -y nvtop htop
@@ -32,4 +32,4 @@ dnf5 remove -y nvtop htop
 #systemctl disable lightdm
 #systemctl enable gdm
 #systemctl enable greetd
-systemctl enable sddm
+#systemctl enable sddm
