@@ -21,6 +21,7 @@ dnf5 install -y hyfetch
 #dnf5 install -y sway alacritty swaylock swayidle swaybg thunar waybar rofi-wayland pavucontrol fontawesome-fonts-all
 #dnf5 install -y @kde-desktop-environment
 #dnf5 install -y @gnome-desktop
+dnf5 install -y @xfce-desktop-environment
 dnf5 remove -y firefox firefox-langpacks
 dnf5 remove -y nvtop htop
 #dnf5 remove -y foot
